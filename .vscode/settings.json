@@ -1,0 +1,17 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "editor.tabSize": 2,
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.options": {
+    "configFile": "./index.js",
+    "envs": [ "node" ]
+  },
+  "eslint.validate": [ "javascript", "typescript" ],
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+}
